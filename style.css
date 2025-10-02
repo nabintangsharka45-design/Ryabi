@@ -14,5 +14,6 @@ body {
 }
 .kartu-profil img {
 width: 150px;
+heigth: auto;
 border-radius: 50%;
 }
