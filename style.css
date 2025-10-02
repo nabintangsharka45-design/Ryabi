@@ -4,11 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-html, body {
-  height: 100%;
-}
-
 /* Body = wadah flex centering */
 body {
   background-color: #FFFFE0;
@@ -33,5 +28,5 @@ body {
 /* Gambar bulat */
 .kartu-profil img {
   width: 150px;
-  border-radius: 50%;
+  border-radius: 75%;
 }
