@@ -1,13 +1,20 @@
-/* Style dasar body */
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* Body = wadah flex centering */
 body {
   background-color: #FFFFE0;
   font-family: Arial, sans-serif;
   color: #191970;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
 
-  /* Flexbox untuk center horizontal & vertical */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,11 +26,11 @@ body {
   padding: 20px;
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
-/* Gambar profil */
+/* Gambar bulat */
 .kartu-profil img {
   width: 150px;
   border-radius: 50%;
